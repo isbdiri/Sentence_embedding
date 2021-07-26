@@ -1,0 +1,157 @@
+Grievance
+PhonePe is an application (hereinafter referred to as an “app”) developed by PhonePe Private Limited(Formerly FX Mart Private Limited), a company incorporated under the Companies Act, 1956 with its registered office at Unit No.001, Ground Floor, Boston House, Suren Road, Off. Andheri-Kurla Road, Andheri (East) Mumbai – 400 093, India hereinafter referred to as PhonePe. We value the trust you place in us & respect your privacy. Hence, we maintain highest standards for secure transactions and user information privacy. Please read the following statement to learn about our information gathering and dissemination practices.
+By downloading/using/accessing the PhonePe application as defined for business and/or personal use, you(“User”) indicate that you understand, agree and consent to this privacy policy. You hereby provide your unconditional consent or agreements to the PhonePe Entities (including but not limited to PhonePe Private Limited, PhonePe Technologies Private Limited , PhonePe Wealth Services Private Limited) as provided under the information technology act, 2000 and the rules and regulations made under therein for accessing any of the PhonePe platform.
+This privacy policy is a legally binding contract between You (“User”) and the PhonePe Entities (collectively referred as “PhonePe Entities”and it’s Group / Associates / Subsidiaries, “We”, “Us”). The terms of this privacy policy will be effective upon your registration on PhonePe Platform (as defined below) and will govern the relationship between you and the PhonePe Entities for your use of the PhonePe Platforms. This Privacy Policy shall be read together with the respective terms of use or other terms and conditions of the respective PhonePe’s product offering on PhonePe platform. This document is published and shall be construed in accordance with the provisions of the information technology (reasonable security practices and procedures and sensitive personal data or information) rules, 2011 under the information technology act, 2000; that require publishing of the privacy policy for collection, use, storage, transfer/ disclose of personal information including sensitive personal information.This privacy policy does not require any physical, electronic or digital signature.
+Note:
+By downloading this app you agree to be bound by the terms and conditions of this Privacy Policy. As this Privacy Policy enables us to provide you a secure and a wholesome experience and Privacy Policy forms part and parcel of the Terms of Use and other terms on the App (Terms of Use), we will not be able to register you, if you are not in agreement with these terms. Though every effort would be made to keep you aware of any changes to the Privacy Policy, you are kindly advised to review the policy periodically on the App to ensure that you are aware of the latest version.
+By mere use of the App or having access to any PhonePe Platforms or PhonePe Services, you expressly consent to our use and disclosure of your personal information in accordance with this Privacy Policy.
+Definitions
+"PhonePe platforms" - Refers to any platform owned/subscribed/used by PhonePe Private Limited or any other PhonePe Entities not limited to websites, mobile applications, devices, URLs/links, notifications, chatbot, or any other communication medium used by by PhonePe Entities to provide its services to its Users.
+"PhonePe Service" shall include all services extended / to be extended by PhonePe and PhonePe entity as a group including but not limited to PPI, PA, PG, BBPOU, AA, Insurance, MF, Gold sale & purchase, Bill payment & recharge, switch including others.
+“Cookies” - “Cookies are small files placed on your device hard-drive/storage that assist us in providing our services. We offer certain features that are only available through the use of a "cookie". "Session Cookies" - These are temporary files that are automatically deleted from your device hard-drive/storage at the end of a session.
+"Business Partners" – Shall refer to any individual, group of individuals defined under law with whom PhonePe or PhonePe Entities have a contractual relationship not limited to Merchants, Advertisers, Deal partners, Financial institutions.
+"Service Providers" – Refers to any individual, group of individuals defined under law whose services are used by PhonePe or PhonePe Entities in order to provide the intended services to You through PhonePe platforms.
+Amendment of Privacy Policy
+Our Privacy Policy is subject to change at any time without notice and the same shall be updated and available within PhonePe App and on its website at www.phonepe.com from time to time. Though every effort would be made to keep you informed of the changes, if any, to the policy, you are kindly advised to review the policy periodically.Any changes to the Policy will become effective upon posting of the revised Policy on the Internet, accessible through PhonePe Platform.
+Scope & Applicability
+This Privacy Policy is applicable to all users of PhonePe including merchants, customers, business partners whether registered or non-registered accessing, offering, selling or purchasing products or services on the website, mobile applications, links, notifications, short messaging services, or any other communication medium used or owned by PhonePe (PhonePe platforms).
+PhonePe has permitted its PhonePe entities to use the PhonePe websites, applications and other communication platforms (PhonePe platforms) for their PhonePe Services. This Privacy Policy is also applicable to PhonePe’s Group/Affiliate/Subsidiary Companies defined as PhonePe Entities who provide their products/ services on the PhonePe’s website and mobile applications or control PhonePe directly or indirectly.
+Purpose
+We collect, processes, store, transfer and record Your data and information while You visit any of PhonePe platforms or avail PhonePe Services. This Privacy Policy is provided to familiarize You with;
+The type of information that is provided or shared by “You” for availing products and services provided on PhonePe platforms and the information that “PhonePe Entities” and “service providers” collect from you.
+The purpose of collection of such data and information from “You”. and how “We” intend to use the data provided and collected by “Us”.
+Our policy on sharing and transferring your data or information with/to “Service Providers”, “Business Partners”, and “PhonePe Entities”.
+The information security practices followed to secure your data and information including data/information retention and destruction policy.
+To make you aware of data/information handling disclosures, and “Your” rights.
+Information Collection
+By providing Us Your Information or by making use of the PhonePe Services provided by the PhonePe App or PhonePe platforms, You hereby consent to the collection, storage, processing, disclosure and/or transfer of any or all of Your Personal Information (as defined below), Sensitive Personal Information (as defined below) and Non-Personal Information (as defined below) by PhonePe Entities, as specified under this Privacy Policy.
+Our primary goal in doing so is to provide you a safe, efficient, smooth and customized experience. This allows us to provide services and features that most likely meet your needs, and to customize our Website/Application to make your experience safer and easier. More importantly, while doing so we collect personal information from you that we consider necessary for achieving this purpose.
+Personal Information - any information that relates to You, which, either directly or indirectly, in combination with other information available is capable of identifying You as a person. Your personal information shall include but not limited to the following -,
+Your name, parent’s name, address, telephone number, e-mail address and other demographic information.
+Your date of birth, gender and marital status.
+Any other information provided by you as part of “Know your customer” norms as required under applicable laws.
+Information related to transactions processed on PhonePe platforms, excluding payment instrument details.
+Sensitive Personal Information - Data or information of a person means which consists of information relating to -
+Password
+Financial information such as Bank account or credit card or debit card or other payment instrument details
+Physical, physiological and mental health condition
+Sexual orientation
+Medical records and history
+Biometric information
+Any information relating to the above points shared by You.
+Any of the information received by PhonePe Entities for processing, stored or processed under lawful contract otherwise.
+Provided that, any information that is freely available or accessible in public domain or furnished under the Right to Information Act, 2005 or any other law for the time being in force shall not be regarded as Sensitive Personal Information and may be regarded as Personal Information.
+Non-Personal Information- We and our Service Providers may collect non-personal data while you access PhonePe platforms via url, smartphones or any other mobile devices. This information shall not identify “you” as a person.
+The devices and identification numbers of devices used by you to access PhonePe platforms.
+I.P address and information related to the I.P address.
+Your geographic location, cookies stored on your browser/devices and behaviour on PhonePe platforms.
+The operating system of your device, browser, browsing behaviour and any other data as permitted to be stored by mobile app stores.
+OTP sent to you by your issuer bank or PhonePe platforms exclusively to carry out transactions on PhonePe platforms.
+Your messages on message boards, chats or any other message/feedback areas shared on PhonePe Platforms and Social Media.
+Information may be collected in various ways and formats during the course of your visit or access to PhonePe Platforms by way of -
+Visiting PhonePe platforms.
+Registering on PhonePe platforms as an “user” or “merchant” or any other relationship that may be governed by terms and conditions listed on PhonePe platforms.
+Transacting or attempting to transact on PhonePe platforms.
+Accessing, links, e-mails, notifications sent or owned by PhonePe platforms.
+Otherwise dealing with any of the “PhonePe Entities”
+We and our Service Providers or Business Partners may also collect information made publicly available through other third-party platforms, through online or offline databases that are otherwise legitimately obtained and are subject to the third party's terms of use and/or privacy statement.
+We may automatically track certain information about you based upon your behaviour on our App. We use this information to do internal research on our users' demographics, interests, and behaviour to better understand, protect and serve our users. This information is compiled and analysed on an aggregated basis.
+We and our Service Providers use data collection tools such as cookies/similar,etc on certain pages of the app to help analyse our app page flow, measure promotional effectiveness, and promote trust and safety. We offer certain features that are only available through the use of a "cookie"
+We and our Service Providers also use cookies to allow you to enter your password less frequently during a session. Cookies can also help us provide information that is targeted to your interests. Most cookies are session cookies, You are always free to decline our cookies if your device permits, although in that case you may not be able to use certain features on the app and you may be required to re-enter your password more frequently during a session
+Purpose and Use of Information
+PhonePe aspires to deliver a safe, efficient, smooth and customized experience. We aspire to provide services and features that most likely meet your needs, and to customize our Website/Application to make your experience safer and easier. PhonePe may collect, use, store and transfer your Personal Information including Sensitive Personal Information and Non-personal information for the following purposes
+Verification of your identity, access, privileges assigned in order to provide the services you request, or we intend to offer.
+To resolve disputes; troubleshoot problems; help promote a safe service; collect money; measure consumer interest in our products and services,
+To inform you about online and offline offers, products, services, and updates; customize your experience and Improving your experience while using the application by presenting advertising, products and offers tailored to you.
+To detect and protect us against error, fraud and other criminal activity; enforce our terms and conditions; and as otherwise described to you at the time of collection.
+To analyse demographic and profile data about our users' activity on our app.
+To help diagnose problems with our server, and to administer our app. Your IP address is also used to help identify you and to gather broad demographic information.
+Responding to the judicial process and providing information to law enforcement agencies or any government agency in connection with a query/investigation on matters as permitted by law.
+Allow third parties to contact with You for products and services availed/requested by You on PhonePe platforms or third party links.
+To identify security breaches and attacks, investigating, preventing and taking action on illegal or suspected fraud or money laundering activities and conducting forensic audits as part of internal or external audit or investigation by any of the PhonePe Entities or government agencies located within India or outside Indian Jurisdictions.
+Sharing, disclosing and transfer of data in case of any major event such as merger, acquisition, sale or transfer of assets in case of any Force Majeure event to any other PhonePe Entity or third party.
+For data processing, statistical or risk analysis and for analytics and review for improvement of the product/services.
+For designing and marketing, PhonePe products/services and its affiliates products/services.
+For conducting risk management.
+To the extent we use your personal information to market to you, we will provide you the ability to opt-out of such uses.
+We identify and use your IP address to help diagnose problems with our server, and to administer our app. Your IP address is also used to help identify you and to gather broad demographic information.
+We will occasionally ask you to complete optional online surveys. These surveys may ask you for contact information and demographic information (like zip code, age, or income level). We use this data to tailor your experience at our app, providing you with content that we think you might be interested in and to display content according to your preferences.
+Information Storage and Sharing
+Your Personal Information and Sensitive Personal Information shall be stored in electronic form with exceptions, wherein the data is required to be maintained in physical form in information and data centers located within Indian Jurisdictions.
+Your data may be collected, stored and processed in countries other than Indian Jurisdictions by Us or our Service Providers as permitted under applicable laws.
+We shall share personal information with our Business Partners/Service Providers and PhonePe Entities for purposes defined under this Privacy Policy.
+We shall share personally identifiable information / Sensitive Personal Information provided by you to Business Partners/Service Providers and PhonePe Entities in the course of making transactions.
+Your data shall be shared with Service Providers that PhonePe work with for services not limited to communication, marketing, data and information storage, transmission, security, analytics, fraud detection, risk assessment, academics.
+Your data may be shared with the internal investigation department within PhonePe Entities or agencies appointed by PhonePe Entities for investigation purposes located within or outside Indian Jurisdictions.
+We may disclose personal information if required to do so by law or in the good faith belief that such disclosure is reasonably necessary to respond to subpoenas, court orders, or other legal process. We may disclose personal information to law enforcement offices, third party rights owners, or others in the good faith belief that such disclosure is reasonably necessary to: enforce our Terms or Privacy Policy; respond to claims that an advertisement, posting or other content violates the rights of a third party; or protect the rights, property or personal safety of our users or the general public.
+We and our affiliates will share / sell some or all of your personal information with another business entity should we (or our assets) plan to merge with, or be acquired by that business entity, or re-organization, amalgamation, restructuring of business. Should such a transaction occur that other business entity (or the new combined entity) will be required to follow this privacy policy with respect to Your personal information.
+We have affiliates around the world. To the extent permitted by law, we may share information with them for specific purposes not limited to investigation or forensics.
+Retention period - We retain your information for as long as needed or permitted considering the purpose(s) for which it was obtained and will retain this information till such period as prescribed under applicable law.
+Safeguarding your information
+PhonePe is an ISO27001 and PCI-DSS certified entity and has deployed technical and physical security measures to safeguard user’s Personal Information and Sensitive Personal Information and undergo strict internal and external reviews to ensure appropriate information security encryption or controls are placed for both data in motion and data at rest within our network and servers respectively.
+We have provided multiple levels of security to safeguard your App by Login/Logout option and Application Lock feature (“Enable Screen Lock”) that can be enabled by you. We have preventive controls implemented to ensure you use PhonePe App on your device and same login can not be used on different device without any additional authentication/OTP. Please do not share your PhonePe login, password and OTP details with anybody.
+When you choose to make payment on PhonePe platforms via cards, some part of your card information is stored in compliance with Payment Card Industry Data Security Standard.
+All Sensitive Personal Information and some part of your Personal Information shall be retained under applicable laws. Personal Information/Non-Personal Information may be retained even after termination of relationship between you and PhonePe Entities.
+Information Disclosures
+Links to Other Platforms - Our app links to other platforms may collect personally identifiable information about you. PhonePe or PhonePe Entities are not responsible for the privacy practices or the content of those linked platforms. Links to third-party advertisements, websites or any other electronic communication service may be provided on PhonePe platforms, which are operated by third parties and are not controlled by, or affiliated to, or associated with, the PhonePe Entities. PhonePe Entities shall not control the data shared by you on such links and shall be governed by respective third party’s Privacy Policy. You are required to review the third party’s Privacy Policy for handling of your data before sharing your data on such links/websites/apps.
+Information Breach - While We shall take all reasonable and appropriate processes and precautions to secure any Personal Information//Sensitive Personal Information which We hold about You, You acknowledge that no data transmission over the internet is fully secure, so we cannot provide any assurance or warrant the security of any information you submit to us.
+Review your Personal Information & Sensitive Personal Information - You may review your Personal Information and Sensitive Personal Information shared by You by logging info PhonePe platforms using your secure login credentials and may notify Us in case of any change.
+Indemnity - You shall indemnify and hold harmless the PhonePe Entities, their officers, directors, contractors or agents and any third parties relying on the Information provided by You for any losses, including all claims, damages, liabilities, deficiencies, assessments, interest, awards, settlements, penalties, fines, costs or expenses, suffered, incurred, sustained by, or imposed on the PhonePe Entities, as a result of, arising out of, with respect to, in connection with or by reason of a breach or non-performance of any of the terms, conditions, representations or warranties contained in this Privacy Policy by You.
+Force Majeure - A Force Majeure Event shall mean any event that is beyond the reasonable control of the PhonePe and shall include but not limited to war, riots, fire, flood, acts of God, explosion, strikes, lockouts, slowdowns, prolonged shortage of energy supplies, Pandemic, computer hacking, unauthorized access to computer data and storage devices, computer crashes ,acts of state or governmental action prohibiting or impeding PhonePe Entities from performing its respective obligations under the contract.
+Jurisdiction - This Privacy Policy is governed by and shall be construed in accordance with the laws of Republic of India and any disputes arising out of or in connection with this Agreement shall be subject to jurisdiction of the Courts of Bangalore, India.
+You further agree that such collection, use, storage, disclosure and/or transfer of Your Information shall not cause any loss to any other person. The information so provided by You may be shared to PhonePe Entities and the third-party service provided on a need to know basis.
+This disclosure may be required for us to provide you access to our Services, to comply with our legal obligations, to enforce our User Agreement, to facilitate our marketing and advertising activities, or to prevent, detect, mitigate, and investigate fraudulent or illegal activities related to our Services. We do not disclose your personal information to third parties for their marketing and advertising purposes
+User Discretion and Choice/Opt-Out
+You agree and acknowledge that your Personal Information, Personal Sensitive Information and Non-Personal Information out of your free will. You further agree to all the provisions of this Privacy Policy and authorise us to manage the data shared by your or collected by us to be used according to this Privacy Policy.
+We provide all users with the opportunity to opt-out of receiving non-essential (promotional, marketing-related) communications from us on behalf of our partners, and from us in general, after setting up an account.If you want to remove your contact information from all PhonePe lists and newsletters, please click on the unsubscribe button on the emailers.
+By using the PhonePe platforms and/ or by providing your information, you consent to the collection and use of the information you disclose on the app in accordance with this Privacy Policy, including but not limited to Your consent for sharing your information as per this privacy policy. You also grant permission to obtain information from your mobile device by way of using our app including contacts on your device in order to provide a better payment experience.
+If we decide to change our privacy policy, we will post those changes on this page so that you are always aware of what information we collect, how we use it, and under what circumstances we disclose it.
+Further Questions?
+Send us a message by using this link https://support.phonepe.com
+Grievance Policy
+PhonePe application developed by PhonePe Private Limited (Formerly FX Mart Private Limited), a company incorporated under the Companies Act, 1956 with its registered office at Unit No.001, Ground Floor, Boston House, Suren Road, Off. Andheri-Kurla Road, Andheri (East) Mumbai – 400 093, India.
+We at PhonePe value the trust placed upon us and strive to offer the best experience to You. Our Grievance policy has been designed to resolve customer grievances in a timely and efficient manner, while treating our customers fairly and courteously.
+Our endeavour is to provide You with a seamless experience while transacting via PhonePe App and when required, our in-app customer redressal support process, is able to address all Your concerns. In rare circumstances where, owing to various human, network or system errors, some issues arise requiring a more focused and customised redressal, You may refer to the following redressal mechanism in the sequential order.
+Grievance redressal
+We have formulated an escalation matrix to ensure that Your concerns are routed and addressed by the right team. You are requested to read and understand the below escalation matrix to ensure a timely redressal of Your concern.
+We recommend You to carefully go through our help pages that provide self-help to our customers. For queries and concerns that are not addressed through the help pages, You can contact our customer support team through phone, email or through PhonePe App.
+Our in-app support channel is able to resolve a vast majority of customer complaints. In any uncommon scenario, where You wish to escalate the concern to next level, You need to ensure that You have already exhausted the previous level(s) and Your concern remains un-resolved or not resolved to Your satisfaction.
+Level 1
+Complaints Registration:
+You can register your complaint with PhonePe Customer Support by clicking on the icon on the home page of the PhonePe App.
+We offer customer support service 24 hours a day and 7 days a week.
+Resolution of Complaints:
+We are committed to provide You with our first response within 24 hours of receiving the complaint.
+We aim to resolve all Your complaints/queries within 3 business days.
+Resolution of Your complaint may get delayed due to operational or technical reasons. In such a scenario, You will be proactively informed of the timelines during which Your complaint will be addressed.
+In a few scenarios while the resolution to a complaint is instant, it may take time for it to get reflected in the system. For example, refund approval can be instant, but it may take 3-10 days to reflect money into the account. Please note that such delays are attributable to banking and other operational issues.
+Complaints related to ‘fraud and risk assessment’ often take longer to investigate due to involvement of multiple agencies. The resolution time in such cases is dependent on the severity and complexity of the case. You shall be proactively informed of the timelines in such cases.
+Level 2
+Complaints Registration: You can access any of the following channels to escalate Your concerns if they have not been satisfactorily resolved at Level 1.
+Log in to  https://support.phonepe.com  with your registered PhonePe number and report your issue.
+Call our customer support centre on 080-68727374.
+Resolution of Complaints :
+We are committed to providing a first response within 24 hours of receiving the complaint.
+We aim to resolve all Level 2 complaints within 3 business days. Any delay in the resolution time shall be proactively communicated to you.
+Level 3
+If your concern/query remains unresolved, can escalate the matter to our Grievance/Nodal officer. The details of the Grievance/Nodal Officer is provided below:
+For PhonePe Private Limited:
+Contact Name: Anuj Bhansali
+Email grievance.phonepe.com
+Phone: 080-68727374/022-68727374
+Address- Ashford Park View, Site No - 9 Industrial Layout,
+Koramangala 3rd Block, 80 ft Road, Bangalore-560034, India.
+Working hours: Mon-Fri 10 am to 7 pm
+
+Any Level 3 escalation email should contain the following information –
+User’s name
+Registered contact number
+Ticket number of the complaint registered by Level 1
+Details of why the resolutions provided at previous levels were deemed unsatisfactory
+Resolution of Complaints:
+We are committed to providing a first response within 24 hours of receiving the complaint.
+We aim to resolve all Level 3 complaints within 3 business days. Any delay in the resolution time shall be proactively communicated to you
+Level 4
+If you are a PhonePe Wallet holder and your query or complaint has not been satisfactorily resolved at previous levels within 30 days, you can reach out to the digital ombudsman. For more details please refer to the link - RBI Ombudsman
+Limitation of Liability
+Read more about liability - here
