@@ -5,7 +5,6 @@ import spacy
 from spacy.matcher import Matcher
 import func
 
-
 myfile_text = st.text_area("Copy the policy text and paste here.")
 
 if len(myfile_text) > 0:
@@ -14,4 +13,4 @@ if len(myfile_text) > 0:
         st.table(matrix)
         st.write(matrix['BT Coeff'].mean())
     else:
-        st.write("No vague terms found.Try again pls.")
+        st.write("No vague terms found.Try again please.")
