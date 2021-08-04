@@ -3,8 +3,6 @@ import streamlit as st
 import pandas as pd
 import spacy
 from spacy.matcher import Matcher
-
-
 import func
 
 
@@ -16,4 +14,4 @@ if len(myfile_text) > 0:
         st.table(matrix)
         st.write(matrix['BT Coeff'].mean())
     else:
-        st.write("No vague terms found.")
+        st.write("No vague terms found.Try again pls.")
