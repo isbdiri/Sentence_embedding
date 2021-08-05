@@ -103,7 +103,7 @@ def generateMatrix(text_string):
 def make_df(intext):
     visualization = pd.DataFrame(generateMatrix(intext))
     if len(visualization) == 0:
-        return None
+        return "None"
     keepWords = Condition + Generalization + Modality + \
         Numeric_quantifier + ["Category", "BT Coeff"]
     visualization.columns = keepWords
