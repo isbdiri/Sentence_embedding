@@ -86,7 +86,7 @@ elif nav == "Scraped Policies":
     if pol_analysis == "Plots":
 
         st.write("Ambiguity score for each of the category: ")
-        analysis = pd.read_csv('../coef_prob_plot.csv')
+        analysis = pd.read_csv('coef_prob_plot.csv')
         analysis.columns = ['category', 'bt_coef', 'Probability']
 
         st.write(analysis)
@@ -104,7 +104,7 @@ elif nav == "Scraped Policies":
 
     if pol_analysis == "Scoring":
         st.subheader("Average Vague Score of all the Phrases:- ")
-        policies_data = pd.read_csv("../Policies.csv")
+        policies_data = pd.read_csv("Policies.csv")
         Company = policies_data['File_name']
         rad_comp = st.multiselect("Select the Company.", Company)
 
