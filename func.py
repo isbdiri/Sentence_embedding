@@ -1,6 +1,7 @@
 import spacy
 import pandas as pd
 from spacy.matcher import Matcher
+nlp = spacy.load('en_core_web_sm')
 
 Condition = ['depending', 'necessary', 'appropriate',
              'inappropriate', 'as needed', 'as applicable',
@@ -49,7 +50,6 @@ for num, i in enumerate(keepWords):
     index_tracker[i] = num
 _ = keepWords.sort(key=len_str, reverse=True)
 
-nlp = spacy.load('en_core_web_sm')
 
 matcher = Matcher(nlp.vocab)
 for i in keepWords:
@@ -108,6 +108,3 @@ def make_df(intext):
         Numeric_quantifier + ["Category", "BT Coeff"]
     visualization.columns = keepWords
     return visualization
-
-
-
