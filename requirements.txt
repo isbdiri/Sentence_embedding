@@ -5,7 +5,3 @@ spacy==2.3.7
 seaborn==0.11.1 
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz#egg=en_core_web_sm
 
-
-# Changes:
-#  Buttons for navigation: Overview, Policy Results and Tool
-# Use plotly for plots
