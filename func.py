@@ -87,6 +87,7 @@ def generateVec(sentence):
     final.append(temp)
     final.append(bt_coef[temp])
 
+    print(final)
     return final
 
 
@@ -107,4 +108,5 @@ def make_df(intext):
     keepWords = Condition + Generalization + Modality + \
         Numeric_quantifier + ["Category", "BT Coeff"]
     visualization.columns = keepWords
+
     return visualization
