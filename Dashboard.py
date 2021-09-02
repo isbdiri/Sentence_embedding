@@ -188,7 +188,7 @@ elif nav == "Company Policies":
 
             st.write("Category Mean: ")
         with c:
-            st.write("Ambiguity Phrases: ",
+            st.write("Ambiguous Phrases: ",
                      Policies.loc[comp_name, 'Amb_Length'])
 
             st.write("Category Mean: ")
