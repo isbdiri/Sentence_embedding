@@ -140,6 +140,7 @@ elif nav == "Policy Results":
 
 elif nav == "Company Policies":
 
+
     amazon, ola, flipkart, whatsapp, facebook, instagram = st.beta_columns(
         6)
 
@@ -181,17 +182,31 @@ elif nav == "Company Policies":
             st.write("Ambiguity Score: ",
                      Policies.loc[comp_name, 'Scaled_100'])
 
-            st.write("Category Mean: ")
+            st.write("Corpus Mean: `63`")
         with b:
             st.write("Length: ",
                      Policies.loc[comp_name, 'Length'])
 
-            st.write("Category Mean: ")
+            st.write("Corpus Mean: `67`")
         with c:
             st.write("Ambiguous Phrases: ",
                      Policies.loc[comp_name, 'Amb_Length'])
 
-            st.write("Category Mean: ")
+            st.write("Corpus Mean: `36`")
+
+    st.header("***Data Snapshot***")
+
+    policies_display = pd.read_csv("Policies_Results_display.csv")
+    policies_display = policies_display.drop(columns=['Unnamed: 0'])
+    policies_display["ambiguity_percentage"] = (policies_display["Amb_Length"]/policies_display["Length"] * 100).round(2)
+    st.write(policies_display)
+
+
+    fig = px.histogram(policies_display, x='ambiguity score', nbins=13)
+    st.plotly_chart(fig, use_container_width=True)
+
+    fig_scatter = px.scatter(policies_display, size = 'ambiguity_percentage', x = "ambiguity score", y = "Length")
+    st.plotly_chart(fig_scatter, use_container_width=True)
 
     st.subheader("Compare with the most ambiguous policy: Torrent Downloader")
 
@@ -213,6 +228,5 @@ elif nav == "Company Policies":
     plot_df['Company'] = plot_c
     plot_df['Ambiguity Score'] = plot_s
 
-    fig = px.bar(plot_df, x='Company', y='Ambiguity Score',
-                 color='Ambiguity Score')
+    fig = px.bar(plot_df, x='Company', y='Ambiguity Score')
     st.plotly_chart(fig)
