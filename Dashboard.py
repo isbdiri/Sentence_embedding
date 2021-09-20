@@ -3,15 +3,14 @@ import streamlit as st
 import pandas as pd
 import spacy
 from spacy.matcher import Matcher
-import func
+from dashboardContent import func
 import seaborn as sns
 
 import plotly.express as px
 import plotly.graph_objects as go
 from gensim.models.word2vec import Word2Vec
 
-from dep import *
-
+from dashboardContent import dep
 from sklearn.preprocessing import MinMaxScaler
 
 model = Word2Vec.load('w2v.model')
@@ -34,18 +33,17 @@ if nav == "Overview":
         "**Corpus:** 73 privacy policies taken from publicly available apps on the Google Play Store")
 
     st.subheader("Inspiration")
-    st.markdown(""" We have used the methodology from the paper [Ambiguity in Privacy Policies and the Impact of Regulation](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2715164) to quantify the degree of ambiguity in the set of privacy policies gathered. The paradigm they present categorizes ambiguous terms into the **four categories: Condition, Generalization, Modality and Numeric Quanitifiers**. The same have been described with examples in the table below.
-     """)
+    st.markdown(dep.Inspiration)
 
-    st.table(tab.set_index('Category'))
+    st.table(dep.tab.set_index('Category'))
 
     st.subheader("Methodology")
-    st.markdown(Methodology)
+    st.markdown(dep.Methodology)
 
     st.subheader("The Scoring Model")
-    st.markdown(The_Scoring_Model)
+    st.markdown(dep.The_Scoring_Model)
 
-    st.image(image1, caption='Equation')
+    st.image(Image.open('dashboardContent/equation.png'), caption='Equation')
 
 if nav == "Tool":
     st.header("***Tool***")
@@ -57,9 +55,10 @@ if nav == "Tool":
 
     if len(myfile_text) > 0:
         matrix = func.make_df(myfile_text)
+        matrix.index += 1
         if "may" in matrix:
 
-            st.write(matrix["Category"])
+            st.table(matrix.loc[:, ["Category", "Amb_Terms", "Amb_Phrase"]])
             st.write("Average vagueness score = ", matrix['BT Coeff'].mean())
         else:
             st.write("No vague terms found.Try again please.")
@@ -70,19 +69,14 @@ elif nav == "Policy Results":
     st.title("***Policy Results***")
 
     # First Graph
-    analysis = pd.read_csv('coef_prob_plot.csv')
+    analysis = pd.read_csv('dashboardContent/coef_prob_plot.csv')
     analysis.columns = ['category', 'bt_coef', 'Probability']
-
-    # st.write(analysis)
-    lab = {'category': 'Category', 'bt_coef': 'Ambiguity Score'}
-    fig = px.bar(analysis, x='category', y='bt_coef', labels=lab,
-                 color='bt_coef', )
 
     # Second Plot
     fi = go.Figure()
     fi.add_trace(go.Scatter(
         x=analysis['category'],
-        y=analysis['bt_coef'],
+        y=analysis['Probability'],
         name='Ambiguity Score',
 
         marker_color='indianred',
@@ -91,27 +85,14 @@ elif nav == "Policy Results":
     ))
     fi.add_trace(go.Bar(
         x=analysis['category'],
-        y=analysis['Probability'],
+        y=analysis['bt_coef'],
         name='Probability of Occurrence',
 
         marker_color='lightsalmon'
 
     ))
 
-    first, second = st.beta_columns(2)
-    a = 0
-    with first:
-        if st.button("Ambiguity Scores vs Categories"):
-            a = 1
-
-    with second:
-        if st.button("Probability of words in a category"):
-            a = 2
-
-    if(a == 1):
-        st.plotly_chart(fig)
-    elif(a == 2):
-        st.plotly_chart(fi)
+    st.plotly_chart(fi)
 
     st.header(
         "This tool will return the top ***n*** words associated with any word.")
@@ -140,8 +121,7 @@ elif nav == "Policy Results":
 
 elif nav == "Company Policies":
 
-
-    amazon, ola, flipkart, whatsapp, facebook, instagram = st.beta_columns(
+    amazon, snapchat, flipkart, whatsapp, facebook, instagram = st.beta_columns(
         6)
 
     comp_name = 8
@@ -151,7 +131,7 @@ elif nav == "Company Policies":
             company_ = 'Amazon'
             comp_name = 8
 
-    with ola:
+    with snapchat:
         if st.button("Snapchat    "):
             comp_name = 75
             company_ = 'Snapchat'
@@ -174,7 +154,7 @@ elif nav == "Company Policies":
             company_ = 'Instagram'
 
     if comp_name != '':
-        Policies = pd.read_csv("Policies_Results.csv")
+        Policies = pd.read_csv("dashboardContent/Policies_Results.csv")
         st.header(f"***{company_}***")
         a, b, c = st.beta_columns(3)
 
@@ -196,16 +176,18 @@ elif nav == "Company Policies":
 
     st.header("***Data Snapshot***")
 
-    policies_display = pd.read_csv("Policies_Results_display.csv")
+    policies_display = pd.read_csv(
+        "dashboardContent/Policies_Results_display.csv")
     policies_display = policies_display.drop(columns=['Unnamed: 0'])
-    policies_display["ambiguity_percentage"] = (policies_display["Amb_Length"]/policies_display["Length"] * 100).round(2)
+    policies_display["ambiguity_percentage"] = (
+        policies_display["Amb_Length"]/policies_display["Length"] * 100).round(2)
     st.write(policies_display)
-
 
     fig = px.histogram(policies_display, x='ambiguity score', nbins=13)
     st.plotly_chart(fig, use_container_width=True)
 
-    fig_scatter = px.scatter(policies_display, size = 'ambiguity_percentage', x = "ambiguity score", y = "Length")
+    fig_scatter = px.scatter(
+        policies_display, size='ambiguity_percentage', x="ambiguity score", y="Length")
     st.plotly_chart(fig_scatter, use_container_width=True)
 
     st.subheader("Compare with the most ambiguous policy: Torrent Downloader")
