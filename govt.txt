@@ -1,0 +1,61 @@
+"Launch of National Single Window System, is a giant leap, towards making India Aatmanirbhar" said Shri Piyush Goyal while Launching the facility.
+
+Union Minister for Commerce & Industry, Textiles, Consumer Affairs & Public Distribution Shri Piyush Goyal said that NSWS will usher in Azadi from legacy of running to Govt. offices  for approvals and registrations  He said that in this 75 weeks of “Azadi ka Amrit Mahotsav”, we can share “Azadi ka Amrit” with Investors, Business owners (MSMEs) not only form India but from the world.The Minister said that 
+
+NSWS would usher in Azadi from legacy of running to Govt. offices, i.e. Ease of doing business & Ease of living Azadi from paperwork, duplication & information asymmetry Azadi from Windows within Window..   
+
+The Minister said that PM Modi’s, decisive & bold leadership has enabled & encouraged India to dream bigger
+
+His vision has become our mission for the progress of nation & prosperity for crores of citizens Need for a single interface between businesses & Govt at national level has been felt for a long time 
+
+Speaking on the occasion, Shri Goyal said that this single window portal will become a one-stop-shop for investors for approvals & clearances
+
+The portal as of today hosts approvals across 18 Central Departments & 9 States, another 14 Central depts & 5  states will be added by Dec’21 
+
+Shri Goyal added that all solutions will be there for all at one click of the mouse through ‘End to End’ facilitation .
+
+This would bring Transparency, Accountability & Responsiveness in the ecosystem  and all information will.be available on a single dashboard. An applicant  Dashboard would be there to apply, track & respond to queries.
+
+Services include Know Your Approval (KYA), Common Registration & State registration Form, Document repository & E-Communication
+
+Shri Goyal said  today India holds the attention of the world & the entire world is looking at India to rise & claim its rightful place as an economic powerhouse.GDP has grown at over 20% in Q1FY22, Exports jumped 45.17% in Aug w.r.t. Aug 2020 Record FDI investment of $81.72 bn in 2020, $ 22.53 bn inflow in first 3 months of this FY ~2X w.r.t. Same period in 2020 Recently, India has jumped to 46th spot on GII, a jump of 35 places in last 6 years
+
+He said that with a rapid recovery, we are back on track to become one of the fastest growing large economies Like the other transformative & nation building initiatives launched in the last 7 years
+
+The Minister said that NSWS will provide strength to other schemes e.g. Make in India, Startup India, PLI scheme etc.  
+
+It may be noted that improving India’s business climate is one of the key focus areas of the Government of India. Reiterating its commitment to “Make in India, make for the world”, the government has launched several initiatives recently, including the flagship Production Linked Incentive Scheme (PLI) and the India Industrial Land Bank System. The PLI schemes have been announced for 13 sectors with an overall outlay of USD 27 billion and is set to create manufacturing global champions for an Atmanirbhar Bharat. 
+
+One such crucial initiative, announced by the  Finance Minister in the Union Budget speech 2020, is the ambitious Investment Clearance Cell (ICC). While presenting Budget 2020-21, the Finance Minister announced plans to set up an Investment Clearance Cell (ICC) that will provide “end to end” facilitation and support to investors, including pre-investment advisory, provide information related to land banks and facilitate clearances at Centre and State level. The cell was proposed to operate through a online digital portal. 
+
+Subsequently, DPIIT along with Invest India initiated the process of developing the portal as a National Single Window System (NSWS), which will provide a single platform to enable investors to identify and obtain approvals and clearances needed by investors, entrepreneurs, and businesses in India.
+
+The system is envisioned to address information asymmetry, duplication of information submitted across platforms and authorities and inefficient tracking of approvals and registration faced by investors. 
+
+Extensive consultations were held with Central departments and States, especially the ones with effective Single Window Systems. Furthermore, discussions were undertaken with Industry associations, professional bodies, and legal firms to understand the expectations from the envisioned single window system. This was followed by the creation of Ministry-wise information dockets comprising of respective approvals and registrations along with relevant trigger conditions and policies. Each ministry undertook an extensive review and validation exercise to ensure all relevant approvals and registrations were covered in the scope of the National Single Window System.
+
+While this exercise was conducted by the stakeholders, Invest India undertook the design of overall technology architecture suitable for a system scalable across Ministries & States. Invest India evaluated and selected technology implementation partners and started developing the system.
+
+ In January 2021, Know Your Approval module was opened for feedback from Industry associations. Meanwhile, Ministries & States started integration with core modules of NSWS for seamless exchange of information. After incorporation of feedback in the KYA module, it was launched in July 2021. While extensive testing and trials were undertaken to test the robustness of NSWS and its integration with Central Departments and States.
+
+NSWS has been designed keeping the needs of entrepreneurs and investors at the center.
+
+ NSWS provides following online services: - 
+
+• Know Your Approval (KYA) Service: an intelligent information wizard that generates a list of approvals required by any business to commence operations. It does so by asking the investor a series of dynamic questions about their planned business activities and identifies the applicable approvals basis the responses provided. The questionnaire, simple and user friendly on the surface, has a complex, automated logic built into it to sieve through hundreds of approvals, and shortlists only those relevant to the specific investor or entrepreneur. This service was launched on 21.07.2021 with over 500 approvals across 32 Central Departments and over 2000 approvals across 14 states.
+
+ This service is only for guidance purposes and does not constitute any legal advice.
+
+• Common Registration Form: To ensure a single point of submission of information and documents across Ministries and States, a unified information capturing system along with a common registration form has been introduced. Information is auto-populated on forms, eliminating the need to fill in the same information again. 
+
+• State registration form: Enables investor to have seamless single click access to respective State Single Window System.
+
+• Applicant dashboard: Provides a single online interface to apply, track and respond to the queries pertaining to approvals and registrations across ministries and States. 
+
+• Document repository: An online centralized storage service for investors to enable one-time document submission and use the same across multiple approvals. This eliminates the need to submit documents at multiple portals.
+
+• E-Communication module: Enables online response to queries and clarification requests related to applications by Ministries and States.
+
+The beta version of the portal has now been completed and is being opened to all stakeholders and the public as trial soft launch. The beta version of the portal (under Phase I), hosts approvals from 18 Central departments and 9 States and is aimed at guiding investors to the list of business approvals they may need, based on information provided by them. Another 14 Central departments and 5 States will be onboarded by December 2021 (under Phase II)
+
+The portal will progressively onboard a greater number of approvals and licenses, based on user / industry feedback. Though extensive testing by Ministries/States is ongoing, and will continue for next three months to stabilize & optimize the platform, it is critical that extensive feedback from the industry users is accommodated to ensure comprehensiveness and high utility for Investors & Entrepreneurs.

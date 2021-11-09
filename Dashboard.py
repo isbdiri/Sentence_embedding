@@ -15,15 +15,12 @@ from sklearn.preprocessing import MinMaxScaler
 
 model = Word2Vec.load('w2v.model')
 
-
-# Backend Code:
-
-
+# Sidebar Navigation: 4 Pages
 nav = st.sidebar.selectbox(
     "Navigation:-", ["Overview", "Policy Results", "Tool", "Company Policies"])
 
 
-# Navigation part 1: includes Information
+# Navigation page1: includes Information-------------------------------------------------------------------------------------------
 if nav == "Overview":
 
     st.header("***Overview***")
@@ -45,18 +42,26 @@ if nav == "Overview":
 
     st.image(Image.open('dashboardContent/equation.png'), caption='Equation')
 
+
+# Navigation page2: Analysis tool----------------------------------------------------------------------------------------------------------
 if nav == "Tool":
     st.header("***Tool***")
 
     # Scoring model text: pg 14
     st.subheader(
-        "This tool will Analyse your text and give an everage privacy score.")
+        "This tool will analyse your text and give an average privacy score.")
     myfile_text = st.text_area("Copy the policy text and paste here. ")
+
+    nlp = spacy.load("en_core_web_sm")
+    length_ = len(nlp(myfile_text))
+    st.write(length_)
 
     if len(myfile_text) > 0:
         matrix = func.make_df(myfile_text)
-        matrix.index += 1
+
+        print()
         if "may" in matrix:
+            matrix.index += 1
 
             st.table(matrix.loc[:, ["Category", "Amb_Terms", "Amb_Phrase"]])
             st.write("Average vagueness score = ", matrix['BT Coeff'].mean())
@@ -64,6 +69,7 @@ if nav == "Tool":
             st.write("No vague terms found.Try again please.")
 
 
+# Navigation page3: includes Information--------------------------------------------------------------------------------------------------
 elif nav == "Policy Results":
 
     st.title("***Policy Results***")
@@ -119,6 +125,8 @@ elif nav == "Policy Results":
     if len(search_term) > 16:
         st.table(search_term['Term'])
 
+
+# Navigation page4: Analysis of Policies---------------------------------------------------------------------------------------------
 elif nav == "Company Policies":
 
     amazon, snapchat, flipkart, whatsapp, facebook, instagram = st.beta_columns(
