@@ -48,6 +48,45 @@ if nav == "Tool":
     st.header("***Tool***")
 
     # Scoring model text: pg 14
+
+    # Uploading a pdf
+    import fitz
+
+    uploaded_pdf = st.file_uploader("Load pdf: ", type=['pdf'])
+
+    if uploaded_pdf is not None:
+        doc = fitz.open(stream=uploaded_pdf.read(), filetype="pdf")
+        pdf_text = ""
+        for page in doc:
+            pdf_text += page.getText()
+
+        doc.close()
+
+    if len(pdf_text) > 0:
+        matrix = func.make_df(pdf_text)
+
+        print()
+        if "may" in matrix:
+            matrix.index += 1
+
+            st.table(matrix.loc[:, ["Category", "Amb_Terms", "Amb_Phrase"]])
+            st.write("Average vagueness score = ", matrix['BT Coeff'].mean())
+        else:
+            st.write("No vague terms found.Try again please.")
+
+
+    # uploaded_file = st.file_uploader('Choose your .pdf file', type="pdf")
+    # file_text = ''
+    # if uploaded_file is not None:
+    #     # Reading the stringIO object
+    #     for i in range(0,10):
+    #         line = uploaded_file.readline()
+    #         if (not line):
+    #             file_text+= '\n '
+    #         else:
+    #             file_text+= str(line)
+    # st.write(file_text)
+
     st.subheader(
         "This tool will analyse your text and give an average privacy score.")
     myfile_text = st.text_area("Copy the policy text and paste here. ")
@@ -83,7 +122,7 @@ elif nav == "Policy Results":
     fi.add_trace(go.Scatter(
         x=analysis['category'],
         y=analysis['Probability'],
-        name='Ambiguity Score',
+        name='Probability of Occurence',
 
         marker_color='indianred',
 
@@ -92,7 +131,7 @@ elif nav == "Policy Results":
     fi.add_trace(go.Bar(
         x=analysis['category'],
         y=analysis['bt_coef'],
-        name='Probability of Occurrence',
+        name='Ambiguity Score',
 
         marker_color='lightsalmon'
 
@@ -129,6 +168,7 @@ elif nav == "Policy Results":
 # Navigation page4: Analysis of Policies---------------------------------------------------------------------------------------------
 elif nav == "Company Policies":
 
+    # Creating buttons for important companies
     amazon, snapchat, flipkart, whatsapp, facebook, instagram = st.beta_columns(
         6)
 
@@ -160,7 +200,7 @@ elif nav == "Company Policies":
         if st.button("Instagram"):
             comp_name = 48
             company_ = 'Instagram'
-
+    # Displaying data of the company selected
     if comp_name != '':
         Policies = pd.read_csv("dashboardContent/Policies_Results.csv")
         st.header(f"***{company_}***")
