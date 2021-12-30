@@ -21,7 +21,7 @@ model = Word2Vec.load('w2v.model')
 
 st.sidebar.title("Navigation")
 nav = st.sidebar.selectbox(
-    "", ["Overview", "Tool", "Policy Results", "Company Policies"])
+    "", ["Overview", "Ambiguity Scoring Tool", "Policy Results", "Company Policies"])
 
 
 # Navigation page1: includes Information-------------------------------------------------------------------------------------------
@@ -47,10 +47,10 @@ if nav == "Overview":
     st.image(Image.open('dashboardContent/equation.png'), caption='Equation')
 
 
-# Navigation page2: Analysis tool----------------------------------------------------------------------------------------------------------
-if nav == "Tool":
+# Navigation page2: Analysis Ambiguity Scoring Tool----------------------------------------------------------------------------------------------------------
+if nav == "Ambiguity Scoring Tool":
     nlp = spacy.load("en_core_web_sm")
-    st.title("***Tool***")
+    st.title("***Ambiguity Scoring Tool***")
     st.subheader("Test our algorithm on your custom data.")
 
     st.info("Choose your desired type of input from the selectbox")
@@ -85,7 +85,10 @@ if nav == "Tool":
 
     # Generating matrix
     matrix = func.make_df(matrix_text)
-
+    document = nlp(matrix_text)
+    num_sents = 0
+    for sent in document.sents:
+        num_sents+=1
 
     if "may" in matrix:
         max_len = len(matrix)
@@ -99,7 +102,9 @@ if nav == "Tool":
        'various', 'including but not limited to']].sum(axis=0).sort_values(ascending=False)
         matrix.index += 1
 
-        st.success(f"Text Analysis Successfull. **{max_len}** ambiguous terms found.")
+        st.success(f"Text Analysis Successfull.")
+        st.error(f"Ambiguous Phrases: **{max_len}** ")
+        st.warning(f"Total Phrases:     **{num_sents}**")
 
         tool_res = st.selectbox('' ,['Top Ambiguous words', 'Show Matrix'])
         if tool_res == 'Top Ambiguous words':
@@ -118,8 +123,8 @@ if nav == "Tool":
 
             st.table(matrix[["Category", "Amb_Terms", "Amb_Phrase"]].head(entries))
 
-    else:
-        st.write("No vague terms found.Try again please.")
+    elif matrix!= '':
+        st.write("No vague terms found. Try again please.")
 
 
 # Navigation page3: includes Information--------------------------------------------------------------------------------------------------
