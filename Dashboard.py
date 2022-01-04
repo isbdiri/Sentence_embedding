@@ -47,6 +47,7 @@ if nav == "Overview":
     st.image(Image.open('dashboardContent/equation.png'), caption='Equation')
 
 
+
 # Navigation page2: Analysis Ambiguity Scoring Tool----------------------------------------------------------------------------------------------------------
 if nav == "Ambiguity Scoring Tool":
     nlp = spacy.load("en_core_web_sm")
