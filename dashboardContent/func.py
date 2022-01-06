@@ -54,7 +54,7 @@ _ = keepWords.sort(key=len_str, reverse=True)
 matcher = Matcher(nlp.vocab)
 for i in keepWords:
     rule = [{"LOWER": j} for j in i.split()]
-    matcher.add(i, None, rule)
+    matcher.add(i, [rule] , on_match= None)
 
 
 def generateVec(sentence):
