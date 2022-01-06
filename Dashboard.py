@@ -102,10 +102,13 @@ if nav == "Ambiguity Scoring Tool":
        'everyone', 'numerous', 'some', 'most', 'few', 'much', 'many',
        'various', 'including but not limited to']].sum(axis=0).sort_values(ascending=False)
         matrix.index += 1
-
-        st.success(f"Text Analysis Successfull.")
-        st.error(f"Ambiguous Phrases: **{max_len}** ")
-        st.warning(f"Total Phrases:     **{num_sents}**")
+        success, error, warning = st.columns(3)
+        with success:
+            st.success(f"Text Analysis Successfull.")
+        with error:
+            st.error(f"Ambiguous Phrases: **{max_len}** ")
+        with warning:
+            st.warning(f"Total Phrases:     **{num_sents}**")
 
         tool_res = st.selectbox('' ,['Top Ambiguous words', 'Show Matrix'])
         if tool_res == 'Top Ambiguous words':
@@ -119,8 +122,9 @@ if nav == "Ambiguity Scoring Tool":
 
 
         if tool_res == 'Show Matrix':
-
-            entries = st.slider("", 1, max_len, 1)
+            entries = 1
+            if max_len>1:
+                entries = st.slider("", 1, max_len, 1)
 
             st.table(matrix[["Category", "Amb_Terms", "Amb_Phrase"]].head(entries))
 
