@@ -1,6 +1,6 @@
 # ***Ambiguity Scoring Tool***
 
-The live dashboard can be found [here](https://ambiguityscoring.herokuapp.comh)
+The live dashboard can be found [here](https://ambiguityscoring.herokuapp.com)
 
 ## Components:- 
 
